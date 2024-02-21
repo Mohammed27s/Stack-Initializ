@@ -1,0 +1,33 @@
+import java.util.Stack;
+
+public class stack {
+
+    public static void main(String[] args){
+
+        Stack<Integer> emptyStack = new Stack<>();
+
+        emptyStack.push(12);
+        emptyStack.push(1);
+        emptyStack.push(10);
+        emptyStack.push(20);
+        emptyStack.push(3);
+        emptyStack.push(4);
+        emptyStack.push(5);
+        emptyStack.push(6);
+        emptyStack.push(912);
+        emptyStack.push(1545);
+
+
+        System.out.println("Checking stack "+emptyStack.empty());
+
+        System.out.println("The size of stack array : "+ emptyStack.size());
+
+
+
+
+    }
+
+
+
+
+}
